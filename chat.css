@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;   
+}
+#myheader{
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    padding:8px 35px;
+    justify-content: space-between;   
+}
+#link1 a{
+    color:white;
+    text-decoration: none;
+}
+.sub-nav{
+    background-color: rgb(3, 2, 54);
+    
+    display:flex;
+    align-items: center;
+    padding:8px 15px;
+    justify-content: space-between;
+}
+.sub-nav a{
+    color:white;
+    text-decoration: none;
+
+}
+.hero{
+    
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 300px auto;
+    display: flex;
+    align-items: center;
+    padding:0 80px;
+    height:270px;
+    justify-content: space-between;
+}
+.pro{
+    margin-top:20px;
+    color:rgb(255, 0, 0);
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-text{
+    width:45%;
+    text-align:left;
+    color:rgb(19, 19, 19);
+}
+.hero-image{
+    width:45%;
+    display:flex;
+    justify-content:flex-end;
+}
+.hero-image img{
+    height:230px;
+    width:auto;
+    object-fit: contain;
+    display:block;
+}
+.card{
+    text-align: center;
+}
+.product{
+    
+    text-align: center;
+    margin:1px;
+    padding: 10px 30px;
+}
+
+.img{
+    display:flex;
+    
+    
+    gap:30px;
+    justify-content: center;
+}
+.card img{
+    width :220px;
+    height:220px;
+    object-fit:contain;
+    display:block;
+    margin:auto;
+}
+.card button{
+    cursor:pointer;
+    background-color: rgb(100, 105, 229);
+    color:white;
+    border:none;
+    border-radius:1px;
+    font-size:14px;
+    padding:3px;
+}
+.card button hover{
+    background-color: rgb(233, 90, 83);
+}
+
+.smart Headphones{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.pro{
+    margin-bottom:40px;
+    text-align: center;
+}
+footer{
+    margin-top:20px;
+    
+}
