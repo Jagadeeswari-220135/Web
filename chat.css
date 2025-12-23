@@ -15,8 +15,7 @@
     text-decoration: none;
 }
 .sub-nav{
-    background-color: rgb(3, 2, 54);
-    
+    background-color: rgb(3, 2, 54);  
     display:flex;
     align-items: center;
     padding:8px 15px;
@@ -27,8 +26,7 @@
     text-decoration: none;
 
 }
-.hero{
-    
+.hero{  
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 300px auto;
@@ -63,18 +61,17 @@ pre{
 }
 .card{
     text-align: center;
+    background-color: rgb(204, 201, 201);
+    height:300px;
 }
-.product{
-    
+
+.product{   
     text-align: center;
     margin:1px;
     padding: 10px 30px;
 }
-
 .img{
-    display:flex;
-    
-    
+    display:flex; 
     gap:30px;
     justify-content: center;
 }
@@ -107,6 +104,5 @@ pre{
     text-align: center;
 }
 footer{
-    margin-top:20px;
-    
+    margin-top:20px;   
 }
