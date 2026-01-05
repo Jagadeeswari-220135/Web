@@ -1,24 +1,63 @@
 <html>
     <head>
-<title>login page</title>
+    <title>login page</title>
+    <link rel="Stylesheet" href="login.css">
     </head>
-    <body>
+    <body style="background-color: rgba(68, 62, 61, 0.33); text-align: center;">
+        <header id="myheader">
+           <img id="image" alt="logo" src="fablo_img.jfif" height="50" width="78" >
+           <div id="mydiv2">
+           <input type="text" placeholder="Type to search here">
+           <button >search</button>
+           </div>
+           <div id="link1">
+           <a href="C:\Users\Jagadeeswari.M\Desktop\wt lab\login.html">
+           <small>Hello,sign in</small><br>
+           <strong>Accounts & Lists</strong>
+           </a>
+           </div>
+        <div id="link1">
+        <a href="#">
+        <small>Returns</small><br>
+        <strong>&Orders</strong>
+        </a>
+        </div>
+        <div id="link1">
+        <a href="C:\Users\Jagadeeswari.M\Desktop\wt lab\cart.html">
+        <p>🛒Cart</p>
+        </a>
+        </div>
+  </header>
+<nav class="sub-nav">
+    <a href="C:\Users\Jagadeeswari.M\Desktop\wt lab\website.html">All</a>
+    <a href="C:\Users\Jagadeeswari.M\Desktop\wt lab\bestsellers.html">Best Sellers</a>
+    <a href="C:\Users\Jagadeeswari.M\Desktop\wt lab\mobiles.html">Mobiles</a>
+    <a href="C:\Users\Jagadeeswari.M\Desktop\wt lab\fashion.html">Fashion</a>
+    <a href="#">Today's Deal</a>
+    <a href="#">Electronics</a>
+    <a href="#">New Releases</a>
+    <a href="#">Prime</a>
+</nav> 
+<div class="form-container">
 <form >
     <label>Username:</label>
-    <input type="text" ><br><br>
+    <input type="text" id="mytext" placeholder="Jagadeeswari" required><br><br>
     <label>Email:</label>
-    <input type="email"><br><br>
+    <input type="email" placeholder="n220135@rguktn.ac.in" required><br><br>
     <label>Password:</label>
-    <input type="password"><br><br>
+    <input type="password" required min-length="9"><br><br>
     <label>Gender:</label>
     <input type="radio" id="radio" name="radio">Male
     <input type="radio" id="radio" name="radio">Female
     <input type="radio" id="radio" name="radio">Others<br><br>
     <label>Mobile no:</label>
-    <input type="tel"><br><br>
+    <input type="tel" ><br><br>
     <label>No of items had selected:</label>
     <input type="number"><br><br>
     <label >Address:</label><br>
     <textarea rows="3" cols="30"></textarea><br><br>
-    
-    <button type="submit">Submit</button>
+    <h3 id="myyh3"></h3>
+    <button type="submit" id="mysubmitt" onclick="successfull()">Submit</button>
+    <script src="website.js"></script>
+    </form>
+</div>
